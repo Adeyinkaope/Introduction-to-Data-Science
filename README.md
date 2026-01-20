@@ -103,7 +103,7 @@ Wind speed shows a strong negative relationship with PM₂.₅ concentrations.
 The exploratory regression model achieved an RMSE of approximately 6.3 µg/m³, indicating moderate predictive performance.
 
 
-Ending
-This project was completed as part of the IJC437: Introduction to Data Science module at the Information School, University of Sheffield.
-Data source: UK-AIR (DEFRA)
+Data source: 
+
+UK-AIR (DEFRA)
 https://uk-air.defra.gov.uk/
