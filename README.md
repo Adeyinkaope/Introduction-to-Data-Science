@@ -1,9 +1,75 @@
 # Introduction-to-Data-Science
 
 
-#OVERVIEW
+Urban Air Quality Comparison and Prediction 🌍🌫️
+Overview 👓
 
+This project is part of the IJC437: Introduction to Data Science .
+The primary objective of this project is to compare urban background air quality between Sheffield Devonshire Green and Glasgow Townhead from 2019 to 2023, focusing on key pollutants (PM₂.₅, PM₁₀, NO₂, and O₃).
+The project also explores the influence of meteorological factors (wind speed, wind direction, and temperature) on pollution levels and includes an exploratory predictive model to assess PM₂.₅ variability.
 
+Project Main Processes ⚙️
+1. Data Preparation and Cleaning
 
-This project in 
-The objective of this project is to nalayses the pollutant between urban background of Glasgow Townhead and Sheffeild Devonshire Green from 2109 to 2023. also the impact of metrologucal factors. Thios project sues ths adaset from Automatic Urban B
+Import hourly air quality monitoring data from UK-AIR for Sheffield and Glasgow.
+
+Remove metadata rows and convert date and time variables into a unified datetime format.
+
+Handle missing values by converting non-numeric entries (e.g. “No data”, “---”) into NA.
+
+Select and standardise key variables across both datasets.
+
+Combine both city datasets into a single harmonised dataset for analysis.
+
+2. Exploratory Data Analysis (EDA)
+
+Visualise annual mean concentrations of PM₂.₅, PM₁₀, NO₂, and O₃ to compare long-term trends.
+
+Examine seasonal patterns to identify winter and summer pollution behaviour.
+
+Analyse changes in PM₂.₅ and NO₂ between 2019 (pre-COVID) and 2020 (during COVID-19 restrictions).
+
+Explore correlations between pollutants and meteorological variables.
+
+3. Comparative Analysis
+
+Compare pollutant concentrations between Sheffield and Glasgow across annual and seasonal timescales.
+
+Identify city-level differences in pollution profiles.
+
+Assess potential influences of traffic, urban background emissions, and meteorology.
+
+4. Predictive Modelling (Exploratory)
+
+Develop a multiple linear regression model to predict PM₂.₅ concentrations.
+
+Use wind speed, temperature, season, and city as predictor variables.
+
+Evaluate how well meteorological factors explain PM₂.₅ variability.
+5. Model Evaluation
+
+Assess predictive performance using Root Mean Square Error (RMSE).
+
+Visualise model performance using observed vs predicted PM₂.₅ plots.
+
+Interpret regression coefficients and discuss model limitations.
+
+Dataset 📋
+
+UK-AIR urban background monitoring data (2019–2023), including:
+
+Air Pollutants: PM₂.₅, PM₁₀, NO₂, O₃
+
+Meteorological Variables: Wind speed, wind direction, temperature
+
+Spatial Coverage:
+
+Sheffield Devonshire Green
+
+Glasgow Townhead
+
+Files 📂
+
+air_quality_analysis.R – Main script for data cleaning, EDA, modelling, and visualisation
+
+README.md – Project documentation (this file)
