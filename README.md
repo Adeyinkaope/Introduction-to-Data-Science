@@ -1,7 +1,4 @@
 # Introduction-to-Data-Science
-Introduction to Data Science Coursework 
-
-
 
 
 OVERVIEW
