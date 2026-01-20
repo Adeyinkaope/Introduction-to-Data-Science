@@ -70,7 +70,9 @@ Glasgow Townhead
 
 Files 📂
 
-air_quality_analysis.R – Main script for data cleaning, EDA, modelling, and visualisation
+Glasgow - Glasgow Townhead Dataset
+Shefield - Sheffield Devonshire Green Dataset
+Main airquality INTDS.R – Main script for data cleaning, EDA, modelling, and visualisation
 
 README.md – Project documentation (this file)
 Getting Started ✨
