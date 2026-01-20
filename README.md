@@ -73,3 +73,37 @@ Files 📂
 air_quality_analysis.R – Main script for data cleaning, EDA, modelling, and visualisation
 
 README.md – Project documentation (this file)
+Getting Started ✨
+
+Clone the repository:
+
+git clone 
+
+
+Open the R script (air_quality_analysis.R) in RStudio.
+
+Install required libraries:
+
+install.packages(c(
+  "tidyverse", "lubridate", "corrplot",
+  "scales", "stringr", "zoo"
+))
+Run the script step-by-step to reproduce the analysis and figures.
+
+Results 🎉
+
+Sheffield generally exhibits higher PM₂.₅ and NO₂ concentrations than Glasgow.
+
+Both cities show strong seasonal patterns, with elevated PM₂.₅ during winter months.
+
+A clear reduction in NO₂ levels was observed during the COVID-19 period (2020).
+
+Wind speed shows a strong negative relationship with PM₂.₅ concentrations.
+
+The exploratory regression model achieved an RMSE of approximately 6.3 µg/m³, indicating moderate predictive performance.
+
+
+Ending
+This project was completed as part of the IJC437: Introduction to Data Science module at the Information School, University of Sheffield.
+Data source: UK-AIR (DEFRA)
+https://uk-air.defra.gov.uk/
