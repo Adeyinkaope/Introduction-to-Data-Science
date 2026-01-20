@@ -54,6 +54,8 @@ Visualise model performance using observed vs predicted PM₂.₅ plots.
 
 Interpret regression coefficients and discuss model limitations.
 
+
+
 Dataset 📋
 
 UK-AIR urban background monitoring data (2019–2023), including:
@@ -68,19 +70,29 @@ Sheffield Devonshire Green
 
 Glasgow Townhead
 
+
+
+
 Files 📂
 
+
 Glasgow - Glasgow Townhead Dataset
+
 Shefield - Sheffield Devonshire Green Dataset
+
 Main airquality INTDS.R – Main script for data cleaning, EDA, modelling, and visualisation
 
 README.md – Project documentation (this file)
+
+
+
+
 Getting Started ✨
+
 
 Clone the repository:
 
 git clone 
-
 
 Open the R script (air_quality_analysis.R) in RStudio.
 
@@ -92,7 +104,11 @@ install.packages(c(
 ))
 Run the script step-by-step to reproduce the analysis and figures.
 
+
+
+
 Results 🎉
+
 
 Sheffield generally exhibits higher PM₂.₅ and NO₂ concentrations than Glasgow.
 
