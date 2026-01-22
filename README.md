@@ -1,7 +1,6 @@
 # Introduction-to-Data-Science
 
-
-Urban Air Quality Comparison and Prediction 🌍🌫️
+TO COMPARE URBAN BACKGROUND AIR QUALITY BETWEEN SHEFFIELD DEVONSHIRE GREEN AND GLASGOW TOWNHEAD 🌍🌫️
 Overview 👓
 
 This project is part of the IJC437: Introduction to Data Science .
